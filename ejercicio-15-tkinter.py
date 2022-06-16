@@ -22,7 +22,7 @@ def reset_opcion():
 
 
 Radiobutton(root,text="Pikachu", variable=opcion, value="Pikachu", command=seleccionar_opcion).pack(anchor=W)
-Radiobutton(root,text="Charmander ", variable=opcion, value="Charmander ", command=seleccionar_opcion).pack(anchor=W)
+Radiobutton(root,text="Charmander", variable=opcion, value="Charmander", command=seleccionar_opcion).pack(anchor=W)
 Radiobutton(root,text="Squirtle", variable=opcion, value="Squirtle", command=seleccionar_opcion).pack(anchor=W)
 Radiobutton(root,text="Bulbasaur", variable=opcion, value="Bulbasaur", command=seleccionar_opcion).pack(anchor=W)
 
